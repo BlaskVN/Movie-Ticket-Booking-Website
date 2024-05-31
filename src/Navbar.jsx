@@ -16,7 +16,7 @@ function Navbar() {
   return (
     // <div className={`${sticky ? "nav" : ""}`}>
       <nav className="nav">
-        <a href="/home" className="site-title">LGTV</a>
+        <a href="/" className="site-title">LGTV</a>
         <ul>
           <li className="active"><a href="/list">Danh sách phim</a></li>
           <li className="active"><a href="123">Lịch chiếu rạp</a></li>
