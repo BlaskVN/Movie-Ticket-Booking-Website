@@ -12,14 +12,17 @@ code {
     monospace;
 }
 .nav {
-  background-color: #0022889c;
+  background-color: #002288;
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: stretch;
   gap: 2rem;
   padding: 0 1rem;
-  
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
 
 .site-title {

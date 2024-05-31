@@ -1,20 +1,20 @@
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 
 function Navbar() {
-  const [sticky, setSticky] = useState(false);
-  useEffect(() => {
-    const handleScroll = () => {
-      setSticky(window.scrollY > 200);
-      console.log(window.scrollY);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => {window.removeEventListener("scroll", handleScroll)};
-  }); // Add an empty dependency array to ensure the effect runs only once
+  // const [sticky, setSticky] = useState(false);
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     setSticky(window.scrollY > 200);
+  //     console.log(window.scrollY);
+  //   };
+  //   window.addEventListener("scroll", handleScroll);
+  //   return () => {window.removeEventListener("scroll", handleScroll)};
+  // }); // Add an empty dependency array to ensure the effect runs only once
 
 
 
   return (
-    <div className={`${sticky ? "nav" : ""}`}>
+    // <div className={`${sticky ? "nav" : ""}`}>
       <nav className="nav">
         <a href="/home" className="site-title">LGTV</a>
         <ul>
@@ -29,7 +29,7 @@ function Navbar() {
           <li className="active"><a href="#">Đăng ký</a></li>
         </ul>
       </nav>
-    </div>
+    // </div>
   )
 }
 
