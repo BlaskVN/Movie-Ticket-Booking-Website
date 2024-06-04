@@ -1,12 +1,13 @@
 import { FaUser } from "react-icons/fa6";
 import { FaLock } from "react-icons/fa";
 import React from "react";
-import '../Signin.css'
+import './Signin.css'
     const SignIn = () => {
         return (
+            <div className="signin">
             <div className="wrapper">
                 <form action="">
-                    <h1>Đăng Nhập</h1>
+                    <h1>Sign In</h1>
                     </form>
                     <div className="inputbox">
                         <input type="text" placeholder="Username"required/>
@@ -21,6 +22,7 @@ import '../Signin.css'
                         <p>Don't have an account ? <a href="#"> SignUp </a> </p>
                     </div>
 
+            </div>
             </div>
 
         );
