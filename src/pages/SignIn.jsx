@@ -8,11 +8,11 @@ import '../Signin.css'
                 <form action="">
                     <h1>Đăng Nhập</h1>
                     </form>
-                    <div className="inputbox ">
+                    <div className="inputbox">
                         <input type="text" placeholder="Username"required/>
                         <FaUser className="icon"/>
                     </div>
-                    <div className="inputbox ">
+                    <div className="inputbox">
                         <input type="password" placeholder="Password"required/>
                         <FaLock className="icon"/>
                     </div>
