@@ -15,7 +15,6 @@ function Navbar() {
         </ul>
         <ul className="nav-right">
           <li className="active"><a href="/signin">Đăng nhập</a></li>
-          <li className="active"><a href="#">Đăng ký</a></li>
           <li className="Muave"><a href="/booking">MUA VÉ</a></li>
         </ul>
       </nav>
