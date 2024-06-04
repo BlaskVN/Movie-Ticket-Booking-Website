@@ -1,16 +1,6 @@
 // import { useState, useEffect } from "react";
-
+import '../navbar.css';
 function Navbar() {
-  // const [sticky, setSticky] = useState(false);
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     setSticky(window.scrollY > 200);
-  //     console.log(window.scrollY);
-  //   };
-  //   window.addEventListener("scroll", handleScroll);
-  //   return () => {window.removeEventListener("scroll", handleScroll)};
-  // }); // Add an empty dependency array to ensure the effect runs only once
-
 
 
   return (
